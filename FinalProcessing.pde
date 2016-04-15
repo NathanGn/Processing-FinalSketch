@@ -1,3 +1,9 @@
+boolean fail = false;
+boolean intro = true;
+int score = 0;
+int playerY =20;
+
+
   void setup()
   {
       size(550,700);
