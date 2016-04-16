@@ -1,8 +1,8 @@
 class obstacle
 {
   float PosX, opening;
-  boolean crashed = false;
-  pillar (int i)
+  boolean cashed = false;
+  obstacle (int i)
   {
     PosX = 100 + (i* 200);
     opening = random (600)+100;
@@ -35,7 +35,7 @@ class obstacle
   {
     fail = true;
     score = 0;
-    b.PosY = 400;
+    PosX = 400;
     for(int i = 0; i < 3; i++)
     {
       p[i].PosX+=550;
