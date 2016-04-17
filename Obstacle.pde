@@ -42,4 +42,14 @@ class obstacle
       p[i].cashed = false;
     }
   }
+  
+  void keyPressed()
+  {
+    b.jump();
+    intro = false;
+    if(fail == false)
+    {
+      reset();
+    }
+}
 }

@@ -21,4 +21,5 @@ int playerY =20;
   void draw()
   {
     background(0);
+    
   }
